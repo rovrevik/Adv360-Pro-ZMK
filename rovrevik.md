@@ -17,6 +17,33 @@ changes
   - would not prevent pressing option and control at the same time
 - it is convenient to press control and option at the same time with the thumb
 
+## default layer
+- `CAPS`: to `caps_word` behavior
+- keypad layer (kp) from `tog` to `mom`
+- thumb cluster
+
+| left   | -      | -       | | right   | -       | -       |
+|--------|--------|---------|-|---------|---------|---------|
+| -      | `LGUI` | `LALT`  | | `RCTRL` | `RGUI`  | -       |
+| -      |        | `LCTRL` | | `RALT`  |         | -       |
+| `BSPC` | `DEL`  | `RSHFT` | | `RSHFT` | `ENTER` | `SPACE` |
+
+## function layer
+- navigation keys
+
+| left   | -      | -       | | right  | -      | -    | -       |
+|--------|--------|---------|-|--------|--------|------|---------|
+|        | `UP`   |         | |        |        |      |         |
+| `LEFT` | `DOWN` | `RIGHT` | | `LEFT` | `DOWN` | `UP` | `RIGHT` |
+
+- swap thumb cluster
+
+| left    | -     | - | | right | -     | -      |
+|---------|-------|---|-|-------|-------|--------|
+| -       |       |   | |       |       | -      |
+| -       |       |   | |       |       | -      |
+| `SPACE` | `RET` |   | |       | `DEL` | `BSPC` |
+
 todo
 ====
 - simplify shift: use thumb cluster or pinky finger
@@ -46,7 +73,9 @@ left hand operation
 
 building firmware
 =================
-- execute online [keymap-editor](https://nickcoutsos.github.io/keymap-editor/) linked to forked github repository
+- execute online 
+  - [keymap-editor](https://nickcoutsos.github.io/keymap-editor/) linked to forked github repository
+  - [Kinesis Clique](https://clique.kinesis-ergo.com/)
 - save to push changes to forked repository
 - docker service needs to be running
 - execute `make`
@@ -55,8 +84,9 @@ building firmware
   - Tips and Tricks
     - mod hotkey 1 left side
     - mod hotkey 3 right side
-  - Step-by-Step Firmware Flashing Instructions6'
-    - paper clip each side
+  - 7.1 Firmware Update Process
+    - [Advantage360-ZMK-KB360-PRO-Users-Manual](https://kinesis-ergo.com/wp-content/uploads/Advantage360-ZMK-KB360-PRO-Users-Manual-v3-10-23.pdf)
+    - double click with paper clip on each side
 change log
 - initial commit with the format changes and no key mappings
 - thumb cluster
