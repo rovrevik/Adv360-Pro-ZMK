@@ -19,6 +19,10 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        caps_word: caps_word {
+            continue-list = <UNDERSCORE MINUS BACKSPACE DELETE LEFT RIGHT UP DOWN>;
+        };
     };
 
     keymap {
