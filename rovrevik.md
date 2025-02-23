@@ -33,11 +33,12 @@ todo
   - consistent use modifier key combinations
   - what are the readline shell equivalents?
 - should the globe key be mapped?
-- consider using a layer for arrow keys
+- consider using a layer for arrow/navigation keys
+  - `HJKL` and `WASD`
 
 left hand operation
 ===================
-- want to be able to leave hand on trackpad
+- want to be able to leave right hand on trackpad
 - reaching for space a lot with left hand and end up hitting the backspace key
 - consider swapping backspace/delete with space/return
   - the function layer key is easy to reach with the left pinky and right thumb
